@@ -1,0 +1,128 @@
+<html>
+  <head>
+    <title>Manav Shah Portfolio</title>
+    <style>
+      .Introduction {
+        background-color: lightyellow;
+        color: blue;
+        text-align: center;
+      }
+      .img {
+        max-width: 350px;
+        border-radius: 50%; /*To make circular image*/
+        object-fit: cover;
+        border: 2px solid rgb(237, 238, 240); /*to do image border*/
+      }
+
+      .Aboutme {
+        background-color: lightgreen;
+        color: rgb(6, 6, 235);
+        text-align: left;
+      }
+      .skills {
+        background-color: lightcyan;
+        padding: 42px;
+      }
+      .Skills-Container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+      }
+      .Skill-card {
+        border: 1px solid black;
+        padding: 20px;
+        width: 320px;
+        font-size: 22px;
+        border-radius: 12px;
+        background-color: #2f0397;
+        color: white;
+      }
+      h1 {
+        font-size: 46px;
+      }
+      h2 {
+        font-size: 32px;
+      }
+      h3 {
+        font-size: 28px;
+      }
+      ul {
+        font-size: 28px;
+      }
+      .skills h1 {
+        color: darkblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Introduction">
+      <img src="Manav photo for resume.jpeg" alt="Manav Shah" class="img" />
+      <h1>Manav Shah</h1>
+      <h2>3rd Year Computer Science Student | Aspiring Software Engineer</h2>
+      <h3>
+        I build efficient web applications and enjoy solving real-world problems
+      </h3>
+    </div>
+    <div class="Aboutme">
+      <h1>About Me</h1>
+      <ul>
+        <li>
+          <!-- to create bullet points -->
+          I am a 3rd-year CSE student passionate about software development and
+          data-driven applications.
+        </li>
+        <li>
+          I have hands-on experience in Python, Java, and full-stack web
+          development.
+        </li>
+        <li>
+          I actively work on projects to strengthen my problem-solving and
+          system design skills.
+        </li>
+      </ul>
+    </div>
+    <div class="skills">
+      <h1 class="h12">Skills</h1>
+      <div class="Skills-Container">
+        <div class="Skill-card">
+          <h2>Programming Languages</h2>
+          <ul>
+            <li>C</li>
+            <li>Python</li>
+            <li>Java</li>
+          </ul>
+        </div>
+
+        <div class="Skill-card">
+          <h2>Web Development</h2>
+          <ul>
+            <li>HTML,CSS</li>
+            <li>Flask , Django</li>
+            <li>Hibernate , JDBC</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+
+        <div class="Skill-card">
+          <h2>CS Fundamentals</h2>
+          <ul>
+            <li>Data Structure & Algorithms</li>
+            <li>Operating System</li>
+            <li>DBMS</li>
+            <li>Computer Networks</li>
+          </ul>
+        </div>
+
+        <div class="Skill-card">
+          <h2>Tools</h2>
+          <ul>
+            <li>VS Code</li>
+            <li>MySQL</li>
+            <li>GitHub</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
